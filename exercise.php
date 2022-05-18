@@ -9,7 +9,7 @@
 <body>
     <?php
     //array declaration
-    $daymonth = array ('Splorch' => 23,'Sploo' => 28, 'Splat' => v2,'Splatt' => 3,'Spleen' => 44,'Splune' => 30,'Spling' => 61,'Slendo' => 61,'Sploctember' => 31,'Splictember' => 31,'Splanet' => 30,'TheRest' => 22);
+    $daymonth = array ('Splorch' => 23,'Sploo' => 28, 'Splat' => 2,'Splatt' => 3,'Spleen' => 44,'Splune' => 30,'Spling' => 61,'Slendo' => 61,'Sploctember' => 31,'Splictember' => 31,'Splanet' => 30,'TheRest' => 22);
     print_r("Minimum Days:".min($daymonth)); //Part a minimum
     echo '</br>';
     print_r("Number of days in year:".array_sum($daymonth));
