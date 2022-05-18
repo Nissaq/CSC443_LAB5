@@ -17,6 +17,9 @@
     {
         echo "Month: $val<BR>";
     }
+
+    sort($month);
+    
     ?>
 </body>
 </html>
