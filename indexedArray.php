@@ -11,7 +11,7 @@
 
     $month = array ('January','February','March','April','May','June','July','August','September','October','November','December');
 
-    /*Only retrieves the value  for the current element and ignores the key*/
+    $len=count($month);
 
     foreach($month as $val)
     {
