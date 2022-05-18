@@ -11,7 +11,12 @@
 
     $month = array ('January','February','March','April','May','June','July','August','September','October','November','December');
 
-    sort($month);
+    /*Only retrieves the value  for the current element and ignores the key*/
+
+    foreach($month as $val)
+    {
+        echo "Month: $val<BR>";
+    }
 
     ?>
 </body>
